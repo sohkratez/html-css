@@ -1,0 +1,55 @@
+@charset "UTF-8";
+
+body{
+    background-color: lightsalmon;
+}
+
+header{
+    background-color:  rgb(190, 122, 95);
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(109, 101, 91);
+    box-shadow: 3px 2px 1px black; /* tag para fazer sombra */
+}
+
+nav > a {
+    text-decoration: none;
+    color: rgb(109, 101, 91);;
+
+}
+
+nav > a:hover {
+    background-color: black;
+    text-decoration: underline;
+}
+
+nav{
+    padding: 5px;
+    margin: 10px;
+    text-align: center;
+}
+
+main {
+    background-color: rgb(190, 122, 95);
+    border-radius: 10px; /* para arredondar as caixas */
+    box-shadow: 2px 2px 1px black;
+    padding: 20px;
+    margin: 20px 0px 20px 0px;
+}
+
+article {
+    background-color: rgb(168, 110, 86);
+    padding: 0px 6px 6px 6px;
+    border-radius: 10px;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 1px;
+    margin: 0;
+}
+
+footer > p{
+    margin: 0px;
+}

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídias em HTML5</title>
+</head>
+<body>
+    <h1>Imagem dinâmica</h1>
+    <p>Tente abrir esse site em vários dispositivos diferentes ou simplesmente aumente e diminua o tamanho do seu navegador.</p>
+
+    <picture>
+        <source media="(max-width: 750px)" srcset="img/foto-p.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="img/foto-m.png" type="image/png">
+        <img src="/img/foto-g.png" alt="foto grande exemplo">
+
+        <h1>Reproduzindo aúdio</h1>
+        <p>Vamos aprender a reproduzir áudios em HTML5.</p>
+        <audio preload="metadata" controls>
+            <source src="midia/frank ocean-pink-and-white.mp3" type="audio/mpeg">
+            <p>Infelizmente seu navegador não consegue reproduzir o aúdio. <a href="midia/frank ocean-pink-and-white.mp3">Clique aqui</a>para baixar o arquivo.</p>
+
+            <!-- o comando source dentro do comando audio serve para o navegador tentar carregar diferentes tipos de arquivos, caso não seja compatível com outros formatos. Além disso, a ordem em que os tipos de arquivos são colocados, importa. Assim, se vc colocar primeiro mp3 e depois wav, primeiro tentará carregar o mp3 e depois o wav.-->
+
+            <!-- TENTE EVITAR ARQUIVOS WAV POIS SÃO ARQUIVOS MAIORES, PORTANTO, MAIS PESADOS. O QUE DEIXA O SITE MAIS LENTO.-->
+
+        </audio>
+        <!--MP3 WAV  OGG-->
+    </picture>
+</body>
+</html>

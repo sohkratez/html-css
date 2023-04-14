@@ -1,0 +1,3 @@
+mais escura: #043D1D
+
+mais clara: #29A05D

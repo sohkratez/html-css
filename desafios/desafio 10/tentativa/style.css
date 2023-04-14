@@ -1,0 +1,149 @@
+@charset "UTF-8";
+@font-face {
+    font-family: "roboto";
+    src: url(fontes/Roboto-Regular.ttf);
+}
+
+@font-face {
+    font-family: "android";
+    src: url(fontes/idroid.otf);
+}
+
+/* ========================================================================================== */
+                /* Adicionando recuo em tudo (INICIO) */
+h1 {
+    text-indent: 2em;
+}
+
+h2 {
+    text-indent: 2em;
+}
+
+p {
+    text-indent: 2em;
+}
+
+body {
+    display: block;
+    margin: 0px;
+}
+
+             /* Adicionando recuo em tudo (FIM) */
+
+/* ============================================================================================== */
+
+                  /* HEADER - INICIO */
+
+header {
+    background-image: linear-gradient(to bottom, #29A05D 25%,#043D1D);
+    height: 160px;
+    padding: 70px;
+}
+
+header{
+    text-align: center;
+    color: white;
+    font-family: "roboto";
+    font-size: 25px;
+}
+
+nav{
+    background-color: #043D1D;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav > a {
+    padding: 10px;
+    text-decoration: none;
+    color: #9fe0bc93;
+    font-weight: bold;
+}
+
+                 /* HEADER - FINAL */
+
+/* ========================================================================= */
+
+                /* MAIN - INICIO */
+
+main {
+    background-color: #E9E6C3;
+    padding: 0px 150px 100px 150px;
+}
+
+div#principal-block {
+    background-color: white;
+    padding: 15px;
+    box-shadow: 0px 0px 6px 3px rgba(0, 0, 0, 0.247);
+    border-radius: 0% 0% 1% 1%;
+}
+
+.artigo1 > h1 { /* primeiro parágrafo */
+    font-family: "android";
+    font-weight: normal;
+}
+
+article > h2{ /* configuracao pra deixa todos os h2 com background color */
+    font-family: "android";
+    font-weight: normal;
+    background-color: #abebc59d;
+}
+
+img {
+    display: block;
+    margin: 0px auto;
+}
+
+.video-background {
+    display: block;
+    background-color: #043D1D;
+    text-align: center;
+    padding: 30px 0px;
+}
+
+.extra { /* Trabalhar no extra!!!! */
+    background-color: #81E2AB;
+    border-radius: 03%;
+    padding: 8px;
+    margin: 30px;
+}
+
+.extra > h2 {
+    color: white;
+    font-weight: bold;
+    padding: 5px;
+    background-color: #266537;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.links {
+    color: #086430;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.links:hover {
+    text-decoration: underline;
+    color: #29A05D;
+}
+
+.links::after {
+    content: " 📎" ;
+    color: #29A05D;
+}
+
+/* ========================================================================= */
+
+                 /* FOOTER - INICIO */
+
+footer {
+    color: white;
+    font-style: italic;
+    text-align: center;
+    padding: 1px;
+    background-color: #043D1D;
+}
+
+.gg-destaque {
+    font-family: "roboto";
+    font-weight: bold;
+}
