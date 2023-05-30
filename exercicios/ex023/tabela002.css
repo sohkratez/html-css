@@ -40,7 +40,7 @@ tbody > tr:nth-child(odd) { /* ou (2n -1) / impar*/
     background-color: rgba(128, 128, 128, 0.63);
 }
 tbody > tr:nth-child(even) { /* ou (2n) / par */
-
+    background-color: white;
 }
 
 tfoot {
